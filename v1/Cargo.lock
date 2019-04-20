@@ -434,7 +434,7 @@ dependencies = [
 [[package]]
 name = "sonr-extras"
 version = "0.1.0"
-source = "git+https://github.com/hagsteel/sonr-extras#46e12ee8508ee94c9b55e58e94aca19c613abfe0"
+source = "git+https://github.com/hagsteel/sonr-extras#e3f9501ee55fcdb243df9a8ec0465f3424168cb9"
 dependencies = [
  "bytes 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "num_cpus 1.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
