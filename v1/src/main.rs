@@ -11,7 +11,7 @@ const BUFFER_SIZE: usize = 1024;
 fn main() -> Result<()> {
     System::init()?;
 
-    let listener = tcp_listener("0.0.0.0:4578")?.map(|s| {
+    let listener = tcp_listener("127.0.0.1:5555")?.map(|s| {
         let stream = Stream::new(s).unwrap();
         UserConnection::new(stream, LineCodec::new(), BUFFER_SIZE, BUFFER_SIZE)
     });
