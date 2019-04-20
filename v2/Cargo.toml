@@ -1,0 +1,10 @@
+[package]
+name = "chat-simple"
+version = "0.1.0"
+authors = ["Jonas Hagstedt <hagstedt@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sonr = { git = "https://github.com/hagsteel/sonr" }
+sonr-extras = { path = "../sonr-extras" }
+bytes = "0.4.12"
