@@ -43,7 +43,7 @@ version = "0.1.0"
 dependencies = [
  "bytes 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "sonr 0.1.0 (git+https://github.com/hagsteel/sonr)",
- "sonr-extras 0.1.0",
+ "sonr-extras 0.1.0 (git+https://github.com/hagsteel/sonr-extras)",
 ]
 
 [[package]]
@@ -434,6 +434,7 @@ dependencies = [
 [[package]]
 name = "sonr-extras"
 version = "0.1.0"
+source = "git+https://github.com/hagsteel/sonr-extras#94c1aa0b5734c05cd3711978a3473f7cb28709f9"
 dependencies = [
  "bytes 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "num_cpus 1.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -535,6 +536,7 @@ dependencies = [
 "checksum slab 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8"
 "checksum smallvec 0.6.9 (registry+https://github.com/rust-lang/crates.io-index)" = "c4488ae950c49d403731982257768f48fada354a5203fe81f9bb6f43ca9002be"
 "checksum sonr 0.1.0 (git+https://github.com/hagsteel/sonr)" = "<none>"
+"checksum sonr-extras 0.1.0 (git+https://github.com/hagsteel/sonr-extras)" = "<none>"
 "checksum stable_deref_trait 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8"
 "checksum winapi 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "167dc9d6949a9b857f3451275e911c3f44255842c1f7a76f33c55103a909087a"
 "checksum winapi 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)" = "f10e386af2b13e47c89e7236a7a14a086791a2b88ebad6df9bf42040195cf770"
