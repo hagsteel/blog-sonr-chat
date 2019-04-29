@@ -47,7 +47,7 @@ impl<T: StreamRef> Reactor for Connections<T> {
                         }
 
                         // Connection broke while receiving data
-                        Err(()) => {
+                        Err(_) => {
                             let user_id = user.token();
                             self.inner.remove(user_id);
                             return Reaction::Continue;
