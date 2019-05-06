@@ -6,5 +6,5 @@ edition = "2018"
 
 [dependencies]
 sonr = { git = "https://github.com/hagsteel/sonr" }
-sonr-extras = { git = "https://github.com/hagsteel/sonr-extras" }
+sonr_extras = { git = "https://github.com/hagsteel/sonr-extras" }
 bytes = "0.4.12"
